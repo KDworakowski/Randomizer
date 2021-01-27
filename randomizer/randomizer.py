@@ -11,9 +11,11 @@ while random_again == "tak" or random_again == "t":
         print("Losuje...")
         print("Wylosowana liczba to:", random.randint(min, max))
         random_again = input("Losowac ponownie? (t/n):")
-    if random_again != "tak" or "t":
-        x = input("Czy napewno chcesz wrocic do menu? (t/n):")
-        if x == "tak" or x == "t":
+    if random_again != "t":
+        quit = input("Czy napewno chesz wrocic do menu? (t/n):")
+    if quit == "t":
             print("Ok!")
             import main
+    if quit == "n":
+        random_again = input("Losowac ponownie? (t/n):")
 pass
