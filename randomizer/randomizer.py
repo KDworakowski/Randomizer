@@ -11,7 +11,7 @@ while random_again == "t":
         print("Losuje...")
         print("Wylosowana liczba to:", random.randint(min, max))
         random_again = input("Losowac ponownie? (t/n):")
-    if random_again != "t":
+    if random_again == "n":
         quit = input("Czy napewno chesz wrocic do menu? (t/n):")
     if quit == "t":
             print("Ok!")
