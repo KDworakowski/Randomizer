@@ -2,10 +2,10 @@
 
 import random
 
-random_again = "tak"
+random_again = "t"
 
-while random_again == "tak" or random_again == "t":
-    if random_again == "tak" or "t":
+while random_again == "t":
+    if random_again == "t":
         print("Losuje...")
         print("Wylosowana liczba to:", random.randint(1, 6))
         print("Wylosowana liczba to:", random.randint(1, 6))
