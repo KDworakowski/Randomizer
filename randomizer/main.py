@@ -27,3 +27,6 @@ while x == 4:
         break
     if y == "n":
         import main
+else:
+    input("Blad! Nie ma takiej opcji, nacisnij dowolny klawisz aby kontynuowac.")
+    import main
