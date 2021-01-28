@@ -21,5 +21,3 @@ while True:
     else:
         input("Blad! Nie ma takiej opcji, nacisnij dowolny klawisz aby kontynuowac.")
         import main
-    
-
