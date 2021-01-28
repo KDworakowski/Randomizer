@@ -6,7 +6,7 @@ print("1.Randomizer z liczba minimalna oraz maksymalna")
 print("2.Rzut koscmi")
 print("3.Orzeł czy reszka")
 print("4.Wylacz")
-x = int(input("1/2/3/4?:"))
+x = (input("1/2/3/4?:"))
 
 while x == 1:
     import randomizer
