@@ -17,5 +17,5 @@ while random_again == "t":
             print("Ok!")
             import main
     if quit == "n":
-        random_again = input("Losowac ponownie? (t/n):")
+        import randomizer
 pass
