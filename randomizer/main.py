@@ -7,26 +7,19 @@ print("2.Rzut koscmi")
 print("3.Orzeł czy reszka")
 print("4.Wylacz")
 x = (input("1/2/3/4?:"))
-
-while x == 1:
-    import randomizer
-pass
-
-while x == 2:
-    import kosci
-pass
-
-while x == 3:
-    import reszka
-pass
-
-while x == 4:
-    print("Czy napewno chcesz wylaczyc?")
-    y = input("t/n?:")
-    if y == "t":
+while True:
+    if x in ('1','2','3','4'):
+        if x == "1":
+            import randomizer
+        elif x == "2":
+            import kosci
+        elif x == "3":
+            import reszka
+        elif x == "4":
+            import wylacz
         break
-    if y == "n":
+    else:
+        input("Blad! Nie ma takiej opcji, nacisnij dowolny klawisz aby kontynuowac.")
         import main
-else:
-    input("Blad! Nie ma takiej opcji, nacisnij dowolny klawisz aby kontynuowac.")
-    import main
+    
+
